@@ -1,0 +1,28 @@
+{
+  "fields": {
+    "Intro": {
+      "type": "mlckeditor",
+      "label": "Intro text"
+    },
+    "Rss": {
+      "type": "checkbox",
+      "label": "Rss Feed"
+    },
+    "Sort": {
+      "type": "checkbox",
+      "label": "Sorting"
+    },
+    "ItemsPage": {
+      "type": "checkbox",
+      "label": "Items per page"
+    },
+    "CurrentPage": {
+      "type": "checkbox",
+      "label": "Current page label"
+    },
+    "Tags": {
+      "type": "checkbox",
+      "label": "Tags"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "type": "object",
+  "properties": {
+    "Intro":{
+      "type": "string"
+
+    },
+    "Rss": {
+      "type": "boolean"
+    },
+    "Sort": {
+      "type": "boolean"
+    },
+    "ItemsPage": {
+      "type": "boolean"
+    },
+    "CurrentPage": {
+      "type": "boolean"
+    },
+    "Tags": {
+      "type": "boolean"
+    }
+  }
+}
