@@ -2,6 +2,8 @@
 {{registerstylesheet "js/fancybox/jquery.fancybox.min.css"}}
 {{registerscript "js/fancybox/jquery.fancybox.min.js"}}
 
+{{registerstylesheet "template.css"}}
+
 <div class="oc-photo-album detailwrapper">
     <div class="row">
         <div class="col-md-12">
@@ -23,7 +25,7 @@
                 <div class="col-12 col-sm-6 col-lg-3 col-xl-3 pb-4">
                     <div class="photo_box">
                         <a href="{{Image}}?width=1500&autorotate=true"  data-fancybox="gallery" title="">
-                            <img src="{{Image}}?width=300&height=300&mode=crop&autorotate=true" alt="" title="" class="gallery-icon img-responsive" loading="lazy" />
+                            <img src="{{Image}}?width=600&autorotate=true" alt="" title="" class="gallery-icon unresponsive" loading="lazy" />
                         </a>
                         {{#if Title}}
                          <h4 class="h6 my-0">{{Title}}</h4>
