@@ -1,5 +1,5 @@
 # Open-Content-Image-Gallery
-An Image Gallery Template for Open Content
+An Image Gallery Template for [Open Content](https://opencontent.readme.io/)
 
 We use this template as a replacement for the Ventrian Gallery module.
 
