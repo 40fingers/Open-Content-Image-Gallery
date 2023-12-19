@@ -5,6 +5,10 @@
       "type": "string"
 
     },
+    "CropListImages":{
+      "type": "boolean"
+
+    },
     "Rss": {
       "type": "boolean"
     },

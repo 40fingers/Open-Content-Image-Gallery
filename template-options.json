@@ -4,6 +4,11 @@
       "type": "mlckeditor",
       "label": "Intro text"
     },
+    "CropListImages":{
+      "type": "checkbox",
+      "label": "Crop images in List"
+
+    },
     "Rss": {
       "type": "checkbox",
       "label": "Rss Feed"
