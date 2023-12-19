@@ -102,9 +102,11 @@ ul.tags span {
 /* Image List */
 
 .gallery-list-wrapper {
+    --images-distance: 0.7em;
+
     display: flex;
     flex-wrap: wrap;
-    margin: 0 -1em;
+    margin: 0 --var(--images-distance);
     container-type: inline-size;
   }
   
@@ -113,13 +115,13 @@ ul.tags span {
   .gallery-list-wrapper{
     .photo_box {
       width: 100%;
-      flex-grow: 1;
-      padding: 0 1em 2em;
+      flex-grow: 0;
+      padding: 0 var(--images-distance) calc(var(--images-distance) * 2);
   
     }
   }
   
-  @container (min-width: 480px) {
+  @container (min-width: 440px) {
     .gallery-list-wrapper{
     .photo_box {
       
@@ -160,14 +162,10 @@ ul.tags span {
     padding: 0.5em;
     border: 1px solid #dddddd;
     background: #fff;
-	width: 100%;
-	height: 100%;
-	object-fit: cover;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
    
-  }
-
-  .gallery-list-wrapper .gallery-icon {
-    margin-bottom: 0.5em;
   }
 
 
