@@ -4,7 +4,7 @@
 
 {{registerstylesheet "template.css"}}
 
-<div class="oc-photo-album detailwrapper">
+<div class="oc-photo-album detailwrapper {{#if Settings.CropListImages}}list-image-crop{{else}}list-image-scale{{/if}}">
     <div class="row">
         <div class="col-md-12">
             <div class="row oc-gallery">
