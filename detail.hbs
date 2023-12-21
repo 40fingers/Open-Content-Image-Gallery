@@ -38,12 +38,13 @@
                 {{/each}}
             </div>
             {{/if}}
-
+            {{#if Tags}}
             <div class="tags pb-4">{{Localization.Tags}}: 
                 {{#each Tags}}
                 <span class="{{Id}}">{{Tag}}</span>
                 {{/each}}
             </div>
+            {{/if}}
         </div>
   	</div>
     <div class="row">
