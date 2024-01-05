@@ -22,7 +22,7 @@
 
                 <!-- panel -->
                 <div class="jplist-panel">
-
+                    {{#if Settings.ShowSearch}}
                     <!-- filter by title -->
                     <div class="text-filter-box form-group">
 
@@ -38,25 +38,8 @@
                                    data-control-action="filter" />
                         </div>
                     </div>
-                    <!-- checkbox filters -->
-                    <div class="jplist-group form-group"
-                         data-control-type="checkbox-group-filter"
-                         data-control-action="filter"
-                         data-control-name="Category">
 
-                        {{#each AdditionalData.Categories}}
-
-                        <div class="checkbox ">
-                            <label for="{{this}}">
-                                <input data-path="{{Id}}"
-                                       id="{{Id}}"
-                                       type="checkbox" />
-                                {{Title}}
-                            </label>
-                        </div>
-
-                        {{/each}}
-                    </div>
+                    {{/if}}
                     {{#if Settings.Tags}}
                     <!-- Button Text Filters Group Control -->
                     <div class="jplist-group form-group"
@@ -139,7 +122,7 @@
             </div>
             <div class="col-12 col-xs-12">			
                 <!-- data -->
-                <div class="list row pt-3 {{#if Settings.CropListImages}}list-image-crop{{else}}list-image-scale{{/if}}">
+                <div class="list row {{#if Settings.CropListImages}}list-image-crop{{else}}list-image-scale{{/if}}">
 
                 </div>
                 <div class="jplist-no-results jplist-hidden">
