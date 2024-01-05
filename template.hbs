@@ -156,13 +156,13 @@
 
                 {{/if}}
         </div>
-
+        {{#if Settings.Paging.Enabled}}
         <div class="jplist-panel row pt-4">
 
             <div class="col-12 col-xs-12">
                 <div class="row">
                     <div class="col-12 col-md-6">
-						{{#if Settings.ItemsPage}}
+						
                         <!-- items per page dropdown -->
                         <div class="dropdown pull-left jplist-items-per-page"
                              data-control-type="boot-items-per-page-dropdown"
@@ -199,7 +199,7 @@
                                 </li>
                             </ul>
                         </div>
-						{{/if}}
+						
                     </div>
                     <div class="col-12 col-md-6">
                         <!-- bootstrap pagination control -->
@@ -213,7 +213,7 @@
                 </div>
             </div>
             <div class="col-12 col-xs-12 pt-3">
-				{{#if Settings.CurrentPage}}
+				{{#if Settings..Paging.ShowCurrentPage}}
                 <!-- pagination info label -->
                 <div class="pull-left jplist-pagination-info"
                      data-type="{{Localization.PageXofY}}"
@@ -223,6 +223,7 @@
 				{{/if}}
             </div>
         </div>
+        {{/if}}
 
 
     </div>
