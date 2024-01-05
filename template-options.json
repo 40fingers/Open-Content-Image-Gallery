@@ -4,10 +4,9 @@
       "type": "mlckeditor",
       "label": "Intro text"
     },
-    "CropListImages":{
+    "CropListImages": {
       "type": "checkbox",
       "label": "Crop images in List"
-
     },
     "Rss": {
       "type": "checkbox",
@@ -17,17 +16,22 @@
       "type": "checkbox",
       "label": "Sorting"
     },
-    "ItemsPage": {
-      "type": "checkbox",
-      "label": "Items per page"
-    },
-    "CurrentPage": {
-      "type": "checkbox",
-      "label": "Current page label"
+    "Paging": {
+      "fields": {
+        "Enabled": {
+          "type": "checkbox",
+          "label": "Enable Paging"
+        },
+        "ShowCurrentPage": {
+          "type": "checkbox",
+          "label": "Show Page 'x of Total' Text"
+        }
+      }
     },
     "Tags": {
       "type": "checkbox",
-      "label": "Tags"
+      "label": "Show Tags"
     }
   }
+ 
 }
