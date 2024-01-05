@@ -9,9 +9,11 @@
       "type": "boolean"
 
     },
-    "Rss": {
-      "type": "boolean"
+    "ShowSearch": {
+      "type": "boolean",
+      "default": true
     },
+    
     "Sort": {
       "type": "boolean"
     },
@@ -32,6 +34,9 @@
 			}
 		},
     "Tags": {
+      "type": "boolean"
+    },
+    "Rss": {
       "type": "boolean"
     }
   }

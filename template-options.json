@@ -8,10 +8,11 @@
       "type": "checkbox",
       "label": "Crop images in List"
     },
-    "Rss": {
+    "ShowSearch": {
       "type": "checkbox",
-      "label": "Rss Feed"
+      "label": "Show Search by Title"
     },
+    
     "Sort": {
       "type": "checkbox",
       "label": "Sorting"
@@ -30,7 +31,11 @@
     },
     "Tags": {
       "type": "checkbox",
-      "label": "Show Tags"
+      "label": "Show Tags Filters"
+    },
+    "Rss": {
+      "type": "checkbox",
+      "label": "Rss Feed"
     }
   }
  

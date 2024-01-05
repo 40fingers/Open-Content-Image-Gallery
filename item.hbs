@@ -32,11 +32,13 @@
                         <div class="gallery-button pb-3">
                             <a class="btn btn-primary btn-sm" href="{{Context.DetailUrl}}" role="button">{{../Localization.OpenGallery}}</a>
                         </div>
+                         {{#if ../Settings.Tags}}
                         <div class="gallery-tags tags pb-4">
                             {{#each Tags}}
                             <span class="{{Id}}">{{Tag}}</span>
                             {{/each}}
                         </div>
+                        {{/if}}
                     </div>
                 </div>
                
