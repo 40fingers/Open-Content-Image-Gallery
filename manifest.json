@@ -1,11 +1,11 @@
 {
     "editWitoutPostback": true,
     "editRole": "",
-    "Index": true, /* required for search */
-    "detailMetaTitle": "{{#if Seo.MetaTitle}}{{Seo.MetaTitle}}{{else}}{{Title}}{{/if}}",
-    "detailMetaDescription": "{{#if Seo.MetaDescription}}{{Seo.MetaDescription}}{{else}}{{Description}}{{/if}}",
-    "detailUrl": "{{Category.Title}}-{{#if Seo.Slug}}{{Seo.Slug}}{{else}}{{Title}}{{/if}}",
-    "detailMeta": "{{#if Image}}<meta property=\"og:image\" content=\"{{Image}}\" />{{/if}}<meta property=\"og:type\" content=\"article\" />",
+    "Index": true, /* Required for search */
+    "detailMetaTitle": "{{Title}}",
+    "detailMetaDescription": "{{Description}}",
+    "detailUrl": "{{Title}}",
+    "detailMeta": "{{#if Image.url}}<meta property=\"og:image\" content=\"//{{Context.HTTPAlias}}{{Image.url}}\" />{{else}}<meta property=\"og:image\" content=\"//{{Context.HTTPAlias}}{{Gallery.0.Image}}\" />{{/if}}<meta property=\"og:type\" content=\"article\" />",
     "templates": {
         "template": {
             "type": "multiple", /* single or multiple*/
