@@ -28,6 +28,10 @@
         }
       }
     },
+    "PhotoCount": {
+      "type": "checkbox",
+      "label": "Show Photo Count"
+    },
     "Tags": {
       "type": "checkbox",
       "label": "Show Tags"

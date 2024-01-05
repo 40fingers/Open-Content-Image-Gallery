@@ -28,6 +28,11 @@
                         <div class="gallery-date mb-2">
                             {{formatDateTime AlbumDate "DD-MM-YYYY"}}
                         </div>
+                        {{#if ../Settings.PhotoCount}}
+                        <div class="gallery-photo-count mb-2">
+                        {{../../Localization.GalleryPhotoCount}}: {{Gallery.length}}
+                        </div>
+                        {{/if}}
                         <div class="gallery-desc pb-3"> {{{Summary}}}</div>
                         <div class="gallery-button pb-3">
                             <a class="btn btn-primary btn-sm" href="{{Context.DetailUrl}}" role="button">{{../Localization.OpenGallery}}</a>
