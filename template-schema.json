@@ -31,6 +31,9 @@
 				}
 			}
 		},
+    "PhotoCount": {
+      "type": "boolean"
+    },
     "Tags": {
       "type": "boolean"
     }

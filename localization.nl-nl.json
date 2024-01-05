@@ -11,6 +11,7 @@
     "PageXofY": "<strong>Pagina {current} van {pages}</strong>",
     "Tags": "Tags",
     "OpenGallery": "Bekijk de foto's",
+    "GalleryPhotoCount": "Aantal Foto's",
     "BackToList": "Terug naar overzicht"
 
 }
