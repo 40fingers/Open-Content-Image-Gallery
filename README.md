@@ -1,4 +1,15 @@
 # Open-Content-Image-Gallery
+
+* This template is now part of https://github.com/40fingers/40FINGERS-OpenContent-Templates.
+
+
+---------------------------------------------------------------- 
+---------------------------------------------------------------- 
+---------------------------------------------------------------- 
+
+
+LEGACY:
+  
 An Image Gallery Template for [Open Content](https://opencontent.readme.io/)
 
 We use this template as a replacement for the Ventrian Gallery module.
